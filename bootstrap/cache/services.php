@@ -25,10 +25,15 @@
     21 => 'Illuminate\\View\\ViewServiceProvider',
     22 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
     23 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    24 => 'App\\Providers\\AppServiceProvider',
-    25 => 'App\\Providers\\AuthServiceProvider',
-    26 => 'App\\Providers\\EventServiceProvider',
-    27 => 'App\\Providers\\RouteServiceProvider',
+    24 => 'Collective\\Html\\HtmlServiceProvider',
+    25 => 'Appzcoder\\CrudGenerator\\CrudGeneratorServiceProvider',
+    26 => 'Appzcoder\\LaravelAdmin\\LaravelAdminServiceProvider',
+    27 => 'Appzcoder\\CrudGenerator\\CrudGeneratorServiceProvider',
+    28 => 'Collective\\Html\\HtmlServiceProvider',
+    29 => 'App\\Providers\\AppServiceProvider',
+    30 => 'App\\Providers\\AuthServiceProvider',
+    31 => 'App\\Providers\\EventServiceProvider',
+    32 => 'App\\Providers\\RouteServiceProvider',
   ),
   'eager' => 
   array (
@@ -43,10 +48,13 @@
     8 => 'Illuminate\\Session\\SessionServiceProvider',
     9 => 'Illuminate\\View\\ViewServiceProvider',
     10 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    11 => 'App\\Providers\\AppServiceProvider',
-    12 => 'App\\Providers\\AuthServiceProvider',
-    13 => 'App\\Providers\\EventServiceProvider',
-    14 => 'App\\Providers\\RouteServiceProvider',
+    11 => 'Appzcoder\\CrudGenerator\\CrudGeneratorServiceProvider',
+    12 => 'Appzcoder\\LaravelAdmin\\LaravelAdminServiceProvider',
+    13 => 'Appzcoder\\CrudGenerator\\CrudGeneratorServiceProvider',
+    14 => 'App\\Providers\\AppServiceProvider',
+    15 => 'App\\Providers\\AuthServiceProvider',
+    16 => 'App\\Providers\\EventServiceProvider',
+    17 => 'App\\Providers\\RouteServiceProvider',
   ),
   'deferred' => 
   array (
@@ -147,6 +155,10 @@
     'validator' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'validation.presence' => 'Illuminate\\Validation\\ValidationServiceProvider',
     'command.tinker' => 'Laravel\\Tinker\\TinkerServiceProvider',
+    'html' => 'Collective\\Html\\HtmlServiceProvider',
+    'form' => 'Collective\\Html\\HtmlServiceProvider',
+    'Collective\\Html\\HtmlBuilder' => 'Collective\\Html\\HtmlServiceProvider',
+    'Collective\\Html\\FormBuilder' => 'Collective\\Html\\HtmlServiceProvider',
   ),
   'when' => 
   array (
@@ -187,6 +199,9 @@
     array (
     ),
     'Laravel\\Tinker\\TinkerServiceProvider' => 
+    array (
+    ),
+    'Collective\\Html\\HtmlServiceProvider' => 
     array (
     ),
   ),
